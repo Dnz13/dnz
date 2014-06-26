@@ -3,7 +3,7 @@ import com.lucasF.JCommUSB_2_0.USBDevice;
 public class UsbJava {
 
 	public static void main(String[] args) {
-		
+		//deneme 
 		String szPath = "";
 		try{
 			szPath = USBDevice.getAttachedDevicePath(0);
