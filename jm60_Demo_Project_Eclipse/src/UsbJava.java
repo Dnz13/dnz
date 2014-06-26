@@ -12,7 +12,7 @@ public class UsbJava {
 			USBDevice myUSB = new USBDevice(szPath);
 
 			System.out.println("connected?"+myUSB.deviceIsConnected()); 
-
+//			github deneme 
 		}catch (Exception e) {
 			e.printStackTrace();
 		}
